@@ -1,0 +1,77 @@
+body,div,ul,li,a,span,p,img{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#header,#banner,#content1,#content2,#footer{
+	margin: 0 auto;
+	width: 1000px;
+}
+img{
+	display: block;
+}
+#header{
+	background: url('../images/banner_bg.jpg') repeat-x;
+	position: relative;
+	height: 75px;
+}
+#header img{
+	float: left;
+}
+#header .a li a{
+	color: #DFEBF9;
+line-height: 75px;
+float: left;
+margin-left: 24px;
+font-size: 14px;
+}
+#content1{
+	width: 964px;
+	height: 192px;
+	background: url('../images/intro_bg.jpg') repeat-x;
+	padding: 20px 18px;
+	margin-bottom: 4px;
+}
+#content1 .images{
+	float: left;
+	margin-right: 12px;
+}
+#content1 .you p{
+	line-height: 27px;
+	text-indent: 2em;
+	color: #616161;
+	font-size: 12px;
+}
+#content2 .b li{
+	float: left;
+	margin-right: 27px;
+}
+#content2 .b li:last-child{
+	margin-right: 0;
+}
+#footer{
+	width: 860px;
+	padding: 36px 0px 6px 140px;
+}
+#footer .images1{
+	margin-right: 12px;
+	margin-top: -18px;
+	float: left;
+}
+#footer .fudong{
+	margin-right: 80px;
+	line-height: 25px;
+	font-size: 14px;
+	float: left;
+}
+#footer .images2{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
